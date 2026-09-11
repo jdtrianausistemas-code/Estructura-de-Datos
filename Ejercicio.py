@@ -21,4 +21,36 @@ def Ejercicio2 ():
     if nota < 0.0 or nota > 5.0:
         print ("Nota invalida")
         
-Ejercicio2 ()
+# Ejercicio2 ()
+
+def Ejercicio3 ():
+    print("Números del 1 al 100:")
+    for numero in range(1, 101):
+        print(numero)
+
+    print("\nNúmeros pares:")
+    for numero in range(2, 101, 2):
+        print(numero)
+
+    print("\nNúmeros impares:")
+    for numero in range(1, 101, 2):
+        print(numero)
+
+    print("\nMúltiplos de 5:")
+    for numero in range(5, 101, 5):
+        print(numero)
+
+    suma = 0
+    for numero in range(1, 101):
+        suma = suma + numero
+
+    print("\nSuma de los números del 1 al 100:", suma)
+
+    Ejercicio3()
+
+    
+
+    
+
+
+
